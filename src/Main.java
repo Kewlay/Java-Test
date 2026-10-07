@@ -36,13 +36,19 @@ public class Main
         textstring = "HAHA FOOLED YA!"; // Pay attention, your variable can change values multiple times, they are NOT fixed!
         int a = 5;
         float b = 1.99f;
-        System.out.println("your string variable is " + textstring + " And your shorter string entry is "+ TEST + " and your integer variable is " + a + " and your float variable is " + b );
+        double c = 1.24;
+        System.out.println("your string variable is " + textstring + " And your shorter string entry is "+ TEST + " and your integer variable is " + a + " and your float variable is " + b + " Also your double variable is " + c);
+        // By the way, a double variable is more accurate than a float variable, however, it uses more memory, and you can probably get away with using float in most places
     }
     public void Operations() {
         // There's an awesome concept here, apparently this operations method can't see anything inside the variables method, so you can't just use the a and b variables we defined before, we have to define new ones
         int a = 1;
         float b = 3.99f;
-        System.out.println(a + b);
+        System.out.println(a+b); // Mathematical Operation because no string is involved
+        System.out.println("The result of the sum of variables a and b is " + a + b); // String is involved so now you just smush the numbers together
+        System.out.println("The result of the sum of variables a and b is " + (a + b)); // If you do the addition inside parenthesis it won't concatenate!
+        System.out.println(a%b); // Calculates the remainder of 1/3.99
+
     }
 }
 
