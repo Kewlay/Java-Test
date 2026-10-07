@@ -1,1 +1,1 @@
-"# Java-Test" "# Java-Test"
+Hey this is my random ass attempt to learn java it'll be public keep reading htis you fat fuck lmao
