@@ -41,6 +41,7 @@ public class FirstTry
                 System.out.println("We know for sure that you aren't 140cm tall"); // This is braindead I'm just testing out the NOT operator
             } else {
                 System.out.println("What the fuck is your problem");
+                // By the way you can make a huge if statement by just chaining together logical operators and parenthesis, just letting you know
             }
         }
     }
